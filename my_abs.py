@@ -29,3 +29,4 @@ print(x, y)
 
 #   一元二次方程
 def quadratic(a, b, c):
+    pass
