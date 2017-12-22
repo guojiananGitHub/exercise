@@ -22,5 +22,3 @@ a = 'abc'
 b = a.replace('a', 'A')
 print(b)
 print(a)
-
-print('test')
