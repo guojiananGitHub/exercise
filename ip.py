@@ -4,7 +4,7 @@ import json
 
 
 def get_ip_information(ip):
-    url = 'http://api.map.baidu.com/location/ip?ip=' + ip + '&ak=c8XPM8PdNP2pwsvPgeabelPDuLuTcSN0&coor=bd09ll'
+    url = 'http://api.map.baidu.com/location/ip?ip=' + ip + '&ak=填自己的AK'
     poiss = ''
     with request.urlopen(url) as f:
         data_json = f.read()
@@ -28,4 +28,4 @@ def get_ip_information(ip):
 #             else:
 #                 print('IP地址定位失败！！！')
 if __name__ == '__main__':
-    get_ip_information('125.89.5.196')
+    get_ip_information('填目標ip')
