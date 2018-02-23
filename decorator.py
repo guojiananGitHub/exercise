@@ -6,4 +6,4 @@ print(now.__name__)
 print(f.__name__)
 
 
-print('Hello,world')
+print('Hello')
