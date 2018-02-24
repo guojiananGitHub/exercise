@@ -4,6 +4,3 @@ f = now
 # print(f())
 print(now.__name__)
 print(f.__name__)
-
-
-print('Hello')
