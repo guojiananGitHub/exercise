@@ -1,10 +1,9 @@
 import os
 
-print(os.name)
-print(os.environ)
-print(os.environ.get('PATH'))
-
-print(os.path.abspath('.'))
+print(os.name)  # 獲取詳情的系統信息
+print(os.environ)  # 環境變量
+print(os.environ.get('PATH'))  # 獲取某個環境變量的值
+print(os.path.abspath('.'))  # 查看當前目錄的絕對路徑
 
 # 把两个路径合成一个时，不要直接拼字符串，而要通过os.path.join()函数，这样可以正确处理不同操作系统的路径分隔符。在Linux/Unix/Mac下，os.path.join()返回这样的字符串：
 print(os.path.join('E:\exercise', 'testdir'))
