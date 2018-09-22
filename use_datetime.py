@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from datetime import datetime, timedelta, timezone
 
 # 获取当前日期和时间
@@ -45,13 +44,15 @@ from datetime import datetime, timedelta, timezone
 # 拿到UTC时间，并强制设置时区为UTC+0:00:
 utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc)
 print(utc_dt)
+
 # astimezone()将转换时区为北京时间:
 bj_dt = utc_dt.astimezone(timezone(timedelta(hours=8)))
 print(bj_dt)
+
 # astimezone()将bj_dt转换时区为东京时间:
 tokyo_dt = bj_dt.astimezone(timezone(timedelta(hours=9)))
 print(tokyo_dt)
-=======
+
 from datetime import datetime
 
 # 获取当前时间
@@ -69,4 +70,4 @@ dt1 = datetime.fromtimestamp(t)  # 本地时间
 print(dt1)
 dt2 = datetime.utcfromtimestamp(t)  # UTC时间
 print(dt2)
->>>>>>> origin/master
+
