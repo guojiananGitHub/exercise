@@ -59,3 +59,4 @@ def quadratic(a, b, c):
             return x1, x2
 print(quadratic(0, 0, 0))
 print(quadratic(1, 3, -4))
+print('Hello')
